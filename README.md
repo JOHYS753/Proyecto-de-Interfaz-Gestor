@@ -26,7 +26,6 @@ Lenguaje: Python
 Interfaz Gráfica (GUI): PySide6
 
 Base de Datos: Microsoft SQL Server
-<img width="800" height="630" alt="image" src="https://github.com/user-attachments/assets/72ed6a3c-17a4-4809-a6e2-9700224426f6" />
 
 Conector de Base de Datos: pyodbc
 
@@ -102,4 +101,7 @@ Bash
 
 python main.py
 Aparecerá la ventana del "Gestor de Contenido Digital" y podrás empezar a utilizarla.
-![Uploading image.png…]()
+<img width="800" height="630" alt="image" src="https://github.com/user-attachments/assets/bf8995c4-107d-4063-8ef9-421e5937d4ff" />
+
+
+
