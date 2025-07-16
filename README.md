@@ -1,8 +1,11 @@
-##Gestor de Contenido Digital para Cursos
-##Integrantes del Poryecto [Karen Carvo , Johana Ibarra Rodriguez , Eumary Ospina]
+### Gestor de Contenido Digital para Cursos
+
+
+## Integrantes del Poryecto [Karen Carvo , Johana Ibarra Rodriguez , Eumary Ospina]
+
 Este es un proyecto de aplicación de escritorio desarrollado en Python con PySide6 que funciona como un sistema de gestión de contenido (CMS) para cursos. Permite a los usuarios registrar, consultar, editar y eliminar diferentes tipos de materiales de estudio, como videos, documentos y enlaces web, utilizando una interfaz gráfica intuitiva y una base de datos SQL Server para la persistencia de los datos.
 
-#🚀 Características Principales
+# 🚀 Características Principales
 Gestión CRUD completa:
 
 Crear: Añadir nuevos contenidos (videos, documentos, enlaces web) a través de un formulario de registro.
@@ -21,7 +24,7 @@ Herencia y Polimorfismo: El código utiliza programación orientada a objetos pa
 
 Arquitectura en Capas: El proyecto está estructurado siguiendo una arquitectura de software que separa la presentación (UI), la lógica de negocio (servicio) y el acceso a datos (DAO).
 
-#🛠️ Tecnologías Utilizadas
+# 🛠️ Tecnologías Utilizadas
 Lenguaje: Python
 
 Interfaz Gráfica (GUI): PySide6
@@ -30,7 +33,7 @@ Base de Datos: Microsoft SQL Server
 
 Conector de Base de Datos: pyodbc
 
-#⚙️ Arquitectura del Proyecto
+# ⚙️ Arquitectura del Proyecto
 El proyecto sigue un diseño en capas para separar responsabilidades, facilitar el mantenimiento y mejorar la escalabilidad:
 
 Capa de Presentación (UI):
@@ -59,7 +62,7 @@ scripGestor.slq.sql: Script SQL para la creación de las tablas necesarias en la
 <img width="1363" height="702" alt="image" src="https://github.com/user-attachments/assets/0f591c02-927b-4c8e-aca3-0c28abcc3514" />
 
 
-#📋 Requisitos Previos
+# 📋 Requisitos Previos
 Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
 Python 3.x
@@ -68,16 +71,16 @@ Microsoft SQL Server (cualquier edición, incluyendo Express).
 
 Microsoft ODBC Driver for SQL Server.
 
-#🚀 Instalación y Configuración
+# 🚀 Instalación y Configuración
 Sigue estos pasos para poner en marcha el proyecto:
 
-#1. Instalar Dependencias de Python
+# 1. Instalar Dependencias de Python
 Abre una terminal y ejecuta el siguiente comando para instalar las librerías necesarias:
 
 Bash
 
 pip install PySide6 pyodbc
-#2. Configurar la Base de Datos
+# 2. Configurar la Base de Datos
 Abre SQL Server Management Studio (SSMS) o una herramienta similar.
 
 Crea una nueva base de datos. En los archivos, se usa el nombre GestionContenidoDB.
@@ -86,18 +89,18 @@ Crea un usuario con permisos de lectura y escritura sobre esa base de datos (por
 
 Ejecuta el script scripGestor.slq.sql en tu base de datos para crear las tablas Contenidos, Videos, Documentos y EnlacesWeb.
 
-#3. Actualizar la Cadena de Conexión
+# 3. Actualizar la Cadena de Conexión
 Abre el archivo src/datos/conexion.py y modifica las siguientes variables con tus propias credenciales de SQL Server:
 
 Python
 
-#class Conexion:
+# class Conexion:
     _SERVIDOR = 'NOMBRE_DE_TU_SERVIDOR'  # Ej: 'DESKTOP-12345' o 'localhost'
     _BBDD = 'GestionContenidoDB'         # El nombre de tu base de datos
     _USUARIO = 'TuUsuarioSQL'            # El usuario que creaste
     _PASSWORD = 'TuContraseña'           # La contraseña del usuario
     # ...
-#▶️ Ejecutar la Aplicación
+# ▶️ Ejecutar la Aplicación
 Una vez configurado todo, ejecuta el archivo principal desde la raíz del proyecto para iniciar la aplicación:
 
 Bash
