@@ -1,3 +1,4 @@
+#Integrantes del Poryecto [Karen Carvo , Johana Ibarra Rodriguez , Eumary Ospina]
 import sys
 import os # Importar el módulo os
 from PySide6.QtWidgets import QApplication
