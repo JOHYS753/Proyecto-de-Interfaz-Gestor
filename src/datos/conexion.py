@@ -1,3 +1,4 @@
+# Integrantes del Poryecto [Karen Carvo , Johana Ibarra Rodriguez , Eumary Ospina]
 import pyodbc as bd
 import sys
 
