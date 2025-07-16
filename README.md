@@ -1,4 +1,5 @@
 ##Gestor de Contenido Digital para Cursos
+##Integrantes del Poryecto [Karen Carvo , Johana Ibarra Rodriguez , Eumary Ospina]
 Este es un proyecto de aplicación de escritorio desarrollado en Python con PySide6 que funciona como un sistema de gestión de contenido (CMS) para cursos. Permite a los usuarios registrar, consultar, editar y eliminar diferentes tipos de materiales de estudio, como videos, documentos y enlaces web, utilizando una interfaz gráfica intuitiva y una base de datos SQL Server para la persistencia de los datos.
 
 #🚀 Características Principales
@@ -55,6 +56,8 @@ conexion.py: Administra la conexión con la base de datos SQL Server.
 Base de Datos:
 
 scripGestor.slq.sql: Script SQL para la creación de las tablas necesarias en la base de datos.
+<img width="1363" height="702" alt="image" src="https://github.com/user-attachments/assets/0f591c02-927b-4c8e-aca3-0c28abcc3514" />
+
 
 #📋 Requisitos Previos
 Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
