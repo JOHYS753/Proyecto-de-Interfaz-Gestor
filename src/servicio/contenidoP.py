@@ -1,3 +1,5 @@
+# Integrantes del Poryecto [Karen Carvo , Johana Ibarra Rodriguez , Eumary Ospina]
+
 from PySide6.QtWidgets import QMainWindow, QMessageBox, QTableWidgetItem, QHeaderView, QTableWidget
 from PySide6.QtCore import QDate
 from src.UI.vtnGestor import Ui_vtnGestor
