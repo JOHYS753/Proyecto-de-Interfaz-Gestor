@@ -1,3 +1,4 @@
+# Integrantes del Poryecto [Karen Carvo , Johana Ibarra Rodriguez , Eumary Ospina]
 class Contenido:
     def __init__(self, id_contenido, titulo, fecha, autor, tipo_contenido=None):
         self._id_contenido = id_contenido
