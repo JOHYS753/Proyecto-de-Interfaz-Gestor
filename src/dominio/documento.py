@@ -1,3 +1,4 @@
+# Integrantes del Poryecto [Karen Carvo , Johana Ibarra Rodriguez , Eumary Ospina]
 from src.dominio.contenido import Contenido
 
 class Documento(Contenido):
